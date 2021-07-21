@@ -5,6 +5,9 @@
 	</head>
 	
 	<script>
+		
+	var element = document.querySelector("#container");
+		
 	function GoInFullscreen(element) {
 	if(element.requestFullscreen)
 		element.requestFullscreen();
@@ -15,6 +18,8 @@
 	else if(element.msRequestFullscreen)
 		element.msRequestFullscreen();
 }
+		
+		GoInFullScreen(
 		
 	function pause(milliseconds){
 		   const date = Date.now();
