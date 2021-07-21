@@ -1,5 +1,8 @@
-<body style="background-color:black;color:white;font-family:Txt_IV25">
-	
+<Header>
+	<title> SCHiNET | REMOTE ACCESS TERMINAL </title>
+</Header>
+
+<body style="background-color:black;color:green;font-family:Txt_IV25">
 	<script>
 		function pause(milliseconds){
 		   const date = Date.now();
@@ -10,8 +13,7 @@
 			}	
 	</script>
 			
-	<h1> SCHiNET | REMOTE ACCESS TERMINAL </h1>
-	<h2> Welcome, user </h2>
+	<h2> Welcome, loyal user </h2>
 	<h3> Schmo inc. - I | Am | Jesus </h3>
 	
 	<script> pause(5000); </script>
@@ -24,7 +26,7 @@
 	<script>
 		pause(600);
 	</script>
-	<h4> | Consuming Ohio...<span style="color: green">OhNo</span> </h4>
+	<h4> | Consuming Ohio...<span style="color: green">Ezz</span> </h4>
 	<script>
 		pause(600);
 	</script>
