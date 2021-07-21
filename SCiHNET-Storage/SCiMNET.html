@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+	<html>
+		<head> 
+			<title>	SCHiNET LOGIN </title>
+		</head>
+			<body style="background-color:black;color:white;font-family:Txt_IV25">
+			
+				<script>
+					function Login() {
+					user = document.getElementById("username").value;
+					pass = document.getElementById("password").value;
+					
+					console.log(user);
+					
+					if (user=="Schmo") {
+						if (pass=="TEST") {
+							window.location.href = "file:///D:/jwils736/Desktop/WelcomePage.html";
+						}
+					}
+				}					
+				</script>
+			
+			
+			
+				<h2>  SCHiNET - DIRECT ACCESS TERMINAL </h2>
+				<h3>  Welcome to SCHiNET DIRECT ACCESS TERMINAL </h3>
+				<label for="username">Username:</label>
+				<input type="email" id="username"> <br>
+				<label for="password">Password:</label>
+				<input type="password" id="password"> 
+				<br>
+				<button onclick="Login()"type = "Submit" style = "font-size:40;" > Submit </button>
+				
+			</body>
+	<html>
