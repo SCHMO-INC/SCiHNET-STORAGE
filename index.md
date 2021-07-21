@@ -27,7 +27,7 @@ github:
 	<script>
 		pause(600);
 	</script>
-	<h4> | ...<span style="color: green">OhNo</span> </h4>
+	<h4> | Consuming Ohio...<span style="color: green">OhNo</span> </h4>
 	<script>
 		pause(600);
 	</script>
