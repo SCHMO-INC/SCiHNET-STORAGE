@@ -4,24 +4,42 @@
 		<title>	SCHiNET LOGIN </title>
 	</head>
 	
-	<script type="text/javascript">
-  	  window.onload = maxWindow;
-
-   	 function maxWindow() {
-     	   window.moveTo(0, 0);
-
-       	 if (document.all) {
-      	      top.window.resizeTo(screen.availWidth, screen.availHeight);
-      	  }
-
-      	  else if (document.layers || document.getElementById) {
-        	    if (top.window.outerHeight < screen.availHeight || top.window.outerWidth < screen.availWidth) {
-          	      top.window.outerHeight = screen.availHeight;
-                	top.window.outerWidth = screen.availWidth;
-            	}
-        	}
-    	}
-</script> 
+	<script>
+	function toggle_full_screen()
+		{
+		    if ((document.fullScreenElement && document.fullScreenElement !== null) || (!document.mozFullScreen && !document.webkitIsFullScreen))
+		    {
+			if (document.documentElement.requestFullScreen){
+			    document.documentElement.requestFullScreen();
+			}
+			else if (document.documentElement.mozRequestFullScreen){ /* Firefox */
+			    document.documentElement.mozRequestFullScreen();
+			}
+			else if (document.documentElement.webkitRequestFullScreen){   /* Chrome, Safari & Opera */
+			    document.documentElement.webkitRequestFullScreen(Element.ALLOW_KEYBOARD_INPUT);
+			}
+			else if (document.msRequestFullscreen){ /* IE/Edge */
+			    document.documentElement.msRequestFullscreen();
+			}
+		    }
+		    else
+		    {
+			if (document.cancelFullScreen){
+			    document.cancelFullScreen();
+			}
+			else if (document.mozCancelFullScreen){ /* Firefox */
+			    document.mozCancelFullScreen();
+			}
+			else if (document.webkitCancelFullScreen){   /* Chrome, Safari and Opera */
+			    document.webkitCancelFullScreen();
+			}
+			else if (document.msExitFullscreen){ /* IE/Edge */
+			    document.msExitFullscreen();
+			}
+		    }
+		}
+	</script>
+	
 	
 	<script>
 	function pause(milliseconds){
@@ -34,6 +52,7 @@
 	</script>
 
 	<body style="background-color:black;color:white;font-family:Txt_IV25">
+		<script>toggle_full_screen();</script>
 		<h1> SCHiNET | REMOTE ACCESS TERMINAL </h1>
 		<h2> Welcome, user </h2>
 		<h3> Schmo inc. - I | DOnt | Know </h3>
