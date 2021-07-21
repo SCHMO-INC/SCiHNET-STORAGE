@@ -5,21 +5,17 @@
 	</head>
 	
 	<script>
-	// DOM element which needs to enter fullscreen mode
-	var element = document.querySelector("#container");
-
-	element.requestFullscreen()
-	.then(function() {
-	console.log("YES");
-	})
-	.catch(function(error) {
-	// element could not enter fullscreen mode
-	// error message
-	console.log(error.message);
-});
-	</script>
-	
-	<script>
+	function GoInFullscreen(element) {
+	if(element.requestFullscreen)
+		element.requestFullscreen();
+	else if(element.mozRequestFullScreen)
+		element.mozRequestFullScreen();
+	else if(element.webkitRequestFullscreen)
+		element.webkitRequestFullscreen();
+	else if(element.msRequestFullscreen)
+		element.msRequestFullscreen();
+}
+		
 	function pause(milliseconds){
 		   const date = Date.now();
 			  let currentDate = null;
