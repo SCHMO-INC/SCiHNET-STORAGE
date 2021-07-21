@@ -1,9 +1,23 @@
+github:
+  is_project_page: false
+
 <body style="background-color:black;color:white;font-family:Txt_IV25">
+	
+	<script>
+		function pause(milliseconds){
+		   const date = Date.now();
+			  let currentDate = null;
+			  do {
+				currentDate = Date.now();
+			  } while (currentDate - date < milliseconds);
+			}	
+	</script>
+			
 	<h1> SCHiNET | REMOTE ACCESS TERMINAL </h1>
 	<h2> Welcome, user </h2>
-	<h3> Schmo inc. - I | DOnt | Know </h3>
+	<h3> Schmo inc. - I | Am | Jesus </h3>
 	
-	<script> pause(5000);
+	<script> pause(5000); </script>
 	
 	<h4> | Activating System...<span style="color: green">Success</span> </h4>
 	<script>
@@ -13,7 +27,7 @@
 	<script>
 		pause(600);
 	</script>
-	<h4> | Downloading cringe memes...<span style="color: green">OhNo</span> </h4>
+	<h4> | ...<span style="color: green">OhNo</span> </h4>
 	<script>
 		pause(600);
 	</script>
@@ -34,7 +48,7 @@
 		pause(600);
 	</script>
 	<h4> | SCHMO Operating System is ready... </h4>
-	<h4> |   -  [SCHMO Sys-No. 1234206912F[<span style="color: green">SECURED</span> </h4>
+	<h4> |   -  [SCHMO Sys-No. 1234206912F[<span style="color: green">SECURED</span>] </h4>
 	<h4> |--------------------------------------------------------- </h4>
 	<br><br>
 	
