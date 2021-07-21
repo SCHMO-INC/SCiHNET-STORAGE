@@ -5,8 +5,18 @@
 	</head>
 	
 	<script>
+	// DOM element which needs to enter fullscreen mode
 	var element = document.querySelector("#container");
-	element.requestFullscreen()	
+
+	element.requestFullscreen()
+	.then(function() {
+	console.log("YES");
+	})
+	.catch(function(error) {
+	// element could not enter fullscreen mode
+	// error message
+	console.log(error.message);
+});
 	</script>
 	
 	<script>
