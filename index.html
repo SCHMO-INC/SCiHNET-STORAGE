@@ -4,30 +4,33 @@
 		<title>	SCHiNET LOGIN </title>
 	</head>
 	
+	<script type="text/javascript">
+  	  window.onload = maxWindow;
+
+   	 function maxWindow() {
+     	   window.moveTo(0, 0);
+
+       	 if (document.all) {
+      	      top.window.resizeTo(screen.availWidth, screen.availHeight);
+      	  }
+
+      	  else if (document.layers || document.getElementById) {
+        	    if (top.window.outerHeight < screen.availHeight || top.window.outerWidth < screen.availWidth) {
+          	      top.window.outerHeight = screen.availHeight;
+                	top.window.outerWidth = screen.availWidth;
+            	}
+        	}
+    	}
+</script> 
+	
 	<script>
-		
-	var element = document.querySelector("#container");
-		
-	function GoInFullscreen(element) {
-	if(element.requestFullscreen)
-		element.requestFullscreen();
-	else if(element.mozRequestFullScreen)
-		element.mozRequestFullScreen();
-	else if(element.webkitRequestFullscreen)
-		element.webkitRequestFullscreen();
-	else if(element.msRequestFullscreen)
-		element.msRequestFullscreen();
-	}
-		
-	GoInFullscreen(element);
-		
 	function pause(milliseconds){
 		   const date = Date.now();
 			  let currentDate = null;
 			  do {
 				currentDate = Date.now();
 			  } while (currentDate - date < milliseconds);
-				}	
+			}	
 	</script>
 
 	<body style="background-color:black;color:white;font-family:Txt_IV25">
