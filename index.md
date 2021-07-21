@@ -20,31 +20,31 @@
 	
 	<h4> | Activating System...<span style="color: green">Success</span> </h4>
 	<script>
-		pause(600);
+		pause(400);
 	</script>
 	<h4> | Verifying Location...<span style="color: green">Success</span> </h4>
 	<script>
-		pause(600);
+		pause(400);
 	</script>
 	<h4> | Consuming Ohio...<span style="color: green">Ezz</span> </h4>
 	<script>
-		pause(600);
+		pause(400);
 	</script>
 	<h4> | Deleting Twitter...<span style="color: green">Cancelled</span> </h4>
 	<script>
-		pause(600);
+		pause(400);
 	</script>
 	<h4> | Booting harddrive...<span style="color: green">Success</span> </h4>
 	<script>
-		pause(600);
+		pause(400);
 	</script>
 	<h4> | Checking Funny Status...<span style="color: green">Cringe</span> </h4>
 	<script>
-		pause(600);
+		pause(400);
 	</script>
 	<h4> | Checking Connection status...<span style="color: green">Normal</span> </h4>
 	<script>
-		pause(600);
+		pause(400);
 	</script>
 	<h4> | SCHMO Operating System is ready... </h4>
 	<h4> |   -  [SCHMO Sys-No. 1234206912F[<span style="color: green">SECURED</span>] </h4>
